@@ -1,0 +1,108 @@
+body {
+    font-family: "Questrial", sans-serif;
+    background-color: peachpuff;
+    width: 100%;
+    margin: 0;}
+  
+  /* ---- HEADER ---- */
+  
+  header {
+    width: 100%;
+    background-color:aliceblue;
+    position: fixed;
+    top: 0;
+    z-index: 950;
+  }
+  
+  /* navigation bar */
+  
+  .navbar {
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    padding: 20px;
+    font-family: "Questrial", sans-serif;
+  }
+  
+  .navbar a {
+    float: left;
+    color: black;
+    text-align: bottom;
+    padding: 19px 80px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar a:hover {
+    color: #67d4e7;
+  }
+  
+  .center a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+    font-size: 27px;
+  }
+  
+  .logo {
+    font-family: "Alegreya Sans", sans-serif;
+    background-color: #ffc0cb;
+    color: white;
+    letter-spacing: 2px;
+  }
+  
+  .navbar-right {
+    float: right;
+  }
+  
+  .reviews-title {
+    padding-top: 150px;
+    text-align:center;
+    font-size: 40px;
+    font-family: "Questrial", sans-serif;
+    letter-spacing: 2px;
+    color: white;
+  }
+  .wrapper {
+    display:inline-grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap:2%;
+    margin-top:5%;
+    margin-left:10%;
+    margin-bottom:5%;
+  }
+  .product1{
+      width:60%;
+      background-color: #ffc0cb;
+      padding: 1rem;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      line-height: 2em;
+    font-family: "Questrial", sans-serif;
+    letter-spacing:2px;
+      }
+  
+  .product2{
+    
+      width: 60%;
+      background-color: #ffc0cb;
+      padding: 1rem;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       
+      line-height: 2em;
+    font-family: "Questrial", sans-serif;
+    letter-spacing:2px;
+      }
+  
+  .product3{
+      width: 60%;
+      background-color: #ffc0cb;
+      padding: 1rem;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        
+      line-height: 2em;
+    font-family: "Questrial", sans-serif;
+    letter-spacing:2px;
+      }
